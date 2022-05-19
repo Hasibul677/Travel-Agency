@@ -1,0 +1,38 @@
+.booking-from-design input{
+ width: 60%;
+ margin-top: 10px;
+}
+.bg-color{
+    background-color: rgba(137, 43, 226, 0.445);
+}
+.image-info{
+width: 500px;
+height: 300px;
+}
+.book-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.frame{
+    height: 300px;
+    background-color: rgb(2, 13, 112);
+}
+.frame img{
+    transition: transform 1s ease-in-out;
+}
+.frame:hover img{
+    transform: translate(0px, 180px);
+}
+.details{
+    position: relative;
+}
+.text{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+   .image-info{
+       width: 320px;
+   }
+  }

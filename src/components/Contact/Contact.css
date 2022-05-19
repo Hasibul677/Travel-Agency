@@ -1,0 +1,16 @@
+.contact-bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.311);
+    background-blend-mode: overlay;
+}
+.contact-padding-top{
+    padding-top: 300px;
+}
+.maps{
+    padding: 200px 0;
+    margin-bottom: 100px;
+}
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }

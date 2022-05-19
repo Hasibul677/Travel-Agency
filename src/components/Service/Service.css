@@ -1,0 +1,7 @@
+.service-image{
+    height: 300px;
+    transition: transform 1s ease-in-out;
+}
+.service-image:hover{
+    transform: scale(1.1);
+}

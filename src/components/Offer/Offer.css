@@ -1,0 +1,9 @@
+.bg-offer{
+    background-color: rgba(255, 217, 0, 0.746);
+    height: 200px;
+}
+@media only screen and (max-width: 600px) {
+    .bg-offer{
+        margin-top: 100px;
+    }
+   }

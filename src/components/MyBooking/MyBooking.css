@@ -1,0 +1,32 @@
+.confirm-image{
+    width: 315px;
+    height: 250px;
+    transform: skew(0deg);
+}
+.confirm-image:hover{
+    width: 400px;
+}
+.details-info{
+    margin-left: 10px;
+    transform: skew(0deg);
+}
+.main{
+    transform: skew(-20deg);
+}
+.padding-bottom{
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .confirm-image{
+        width: 220px;
+        height: 250px;
+        transform: skew(0deg);
+    }
+    .confirm-image:hover{
+        width: 220px;
+    }
+    .main{
+        transform: skew(-4deg);
+    }
+   }

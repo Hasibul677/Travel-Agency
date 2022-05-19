@@ -1,0 +1,16 @@
+.padding-top{
+    padding-top: 100px;
+}
+.from-design{
+    text-align: center;
+}
+.from-design input, textarea{
+ width: 30%;
+ margin-top: 10px;
+}
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
